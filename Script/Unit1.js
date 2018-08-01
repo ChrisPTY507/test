@@ -1,3 +1,3 @@
 ﻿function test(){ 
-  Log.Message("hola");
+  Log.Message("hola!!!!!");
 }
