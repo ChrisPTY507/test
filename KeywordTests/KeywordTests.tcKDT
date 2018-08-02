@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="12.0">
 	<children>
-		<child name="Test1" key="{5F2D8F1F-1326-4FB5-81EE-01DEF3003684}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
-			<data path="Test1.tcKDTest" />
+		<child name="SFR00_Flujo" key="{5F2D8F1F-1326-4FB5-81EE-01DEF3003684}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SFR00_Flujo.tcKDTest" />
+		</child>
+		<child name="SFR01_Login" key="{C8F1AA4D-DA7D-4959-9CA6-71C1C64FC0BA}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SFR01_Login.tcKDTest" />
+		</child>
+		<child name="SFR02_entra_reservacion" key="{C313EC96-BF49-4081-8CE3-9ABB012DFC43}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SFR02_entra_reservacion.tcKDTest" />
 		</child>
 	</children>
-	<folders />
+	<folders>
+		<folder caption="Reservaciones" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{5F2D8F1F-1326-4FB5-81EE-01DEF3003684}" />
+				<ref key="{C8F1AA4D-DA7D-4959-9CA6-71C1C64FC0BA}" />
+				<ref key="{C313EC96-BF49-4081-8CE3-9ABB012DFC43}" />
+			</references>
+		</folder>
+	</folders>
 </Root>

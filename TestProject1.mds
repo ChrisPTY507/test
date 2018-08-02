@@ -26,7 +26,18 @@
 		<children />
 	</testItems>
 	<variables key="{A3842490-C2F6-4CFF-BEDE-26673DCDE69C}">
-		<data Version="3" />
+		<data Version="3">
+			<Items>
+				<Variable Name="reservar_vuelo" Type="{8ECBD24A-6DA1-4476-A473-EE3A52F06A83}" Local="False">
+					<DefValue Kind="{CE6E0605-AE4F-45D5-8174-7C99555F214B}">
+						<ConnectionInfo FileName="Data\Reservar_Vuelo\reservar.csv" UseOLEDB="False" Delimiters="," UniteDelimiters="False" HasColumnNames="True" TextQualifier="&quot;" />
+					</DefValue>
+				</Variable>
+				<Variable Name="web_url" Type="{123F0C0F-44B4-4BAF-B0E6-F3F89FD873B5}" Local="True">
+					<DefValue StrValue="680074007400700073003A002F002F007000730073006700750069002E0063006F00700061007500610074002E00740072006100760065006C002E00610069007200730065007200760069006300650073002E0073007600630073002E0065006E00740073007600630073002E0063006F006D002F00" />
+				</Variable>
+			</Items>
+		</data>
 	</variables>
 	<settings key="{3DB464C2-F8A3-4722-9AD8-CAD87146F611}">
 		<settingsVersion value="12.50" />

@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="Unit1" key="{D1A79BE1-183A-4C14-A79B-3F07A0458F98}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
-			<data path="Unit1.js" />
+		<child name="SFR01_Login" key="{D1A79BE1-183A-4C14-A79B-3F07A0458F98}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SFR01_Login.js" />
+		</child>
+		<child name="maximize_edge" key="{869CD1DE-C837-4C75-A7E7-A6AD5EF49FED}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="maximize_edge.js" />
+		</child>
+		<child name="maximize_chrome" key="{9E8702E6-E84F-4418-9BFC-49D521454637}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="maximize_chrome.js" />
+		</child>
+		<child name="SFR02_enter_reservation" key="{FD6BF471-01D9-46B8-9DD8-1253B6385B7C}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SFR02_enter_reservation.js" />
+		</child>
+		<child name="login" key="{BDD920BB-10E8-43A5-90A6-2504C4D681BB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="login.js" />
+		</child>
+		<child name="logout" key="{90C565E1-FD0F-43B1-BB3F-2195E95252E9}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="logout.js" />
 		</child>
 	</children>
-	<folders />
+	<folders>
+		<folder caption="help" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{869CD1DE-C837-4C75-A7E7-A6AD5EF49FED}" />
+				<ref key="{9E8702E6-E84F-4418-9BFC-49D521454637}" />
+				<ref key="{BDD920BB-10E8-43A5-90A6-2504C4D681BB}" />
+				<ref key="{90C565E1-FD0F-43B1-BB3F-2195E95252E9}" />
+			</references>
+		</folder>
+		<folder caption="Reservations" description="A logical folder that is used to organize project items and elements." moniker="">
+			<references>
+				<ref key="{D1A79BE1-183A-4C14-A79B-3F07A0458F98}" />
+				<ref key="{FD6BF471-01D9-46B8-9DD8-1253B6385B7C}" />
+			</references>
+		</folder>
+	</folders>
 </Root>

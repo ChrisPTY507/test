@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="12.0">
+	<TestData Description="" Key="{81FDF2B5-CAD1-417C-B6C7-4C45FC80E359}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="Maximize_browser" Unit="maximize_chrome" />
+			</Operation>
+			<Operation Type="{206B0810-0B42-45AB-90F5-9F8DF0D669D2}">
+				<Data Description="Runs a script routine." TestName="SFR02_enter_reservation" Unit="SFR02_enter_reservation" />
+			</Operation>
+		</Children>
+	</TestData>
+	<Variables Version="3" Key="{4EBE0C6B-B946-45A5-9609-6CCB8996DA45}" />
+	<Parameters Key="{F46CD28F-9909-4794-B699-7FCAFDCFC044}" />
+</Root>
