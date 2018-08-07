@@ -10,6 +10,12 @@
 		<child name="SFR02_entra_reservacion" key="{C313EC96-BF49-4081-8CE3-9ABB012DFC43}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
 			<data path="SFR02_entra_reservacion.tcKDTest" />
 		</child>
+		<child name="SFR03_nueva_orden" key="{6277463F-2EC5-4942-AC5C-D9BE2F10BF6F}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="SFR03_nueva_orden.tcKDTest" />
+		</child>
+		<child name="test" key="{8B78FE6C-BAB6-4D02-8BF8-427DF33BC0EE}" type="Keyword Test" typeId="{B9D9273E-7266-43E0-BF02-97F168593604}" pluginName="Keyword Testing">
+			<data path="test.tcKDTest" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="Reservaciones" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -17,6 +23,8 @@
 				<ref key="{5F2D8F1F-1326-4FB5-81EE-01DEF3003684}" />
 				<ref key="{C8F1AA4D-DA7D-4959-9CA6-71C1C64FC0BA}" />
 				<ref key="{C313EC96-BF49-4081-8CE3-9ABB012DFC43}" />
+				<ref key="{6277463F-2EC5-4942-AC5C-D9BE2F10BF6F}" />
+				<ref key="{8B78FE6C-BAB6-4D02-8BF8-427DF33BC0EE}" />
 			</references>
 		</folder>
 	</folders>

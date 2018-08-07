@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{E2108BF0-566B-4A6C-BC4A-5919F97390FB}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="43318.5957175926" objectName="Aliases.browser.pagePssguiCopauatTravelAirservic5.panel2.panel.panel.panel.panel2.panel" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi594773031100602.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="43318.817962963" objectName="Aliases.browser.pagePssguiCopauatTravelAirservic5.panel2.panel.panel.panel.panel.panel" objectLeft="-1" objectTop="-1" objectRight="-1" objectBottom="-1" clickPointX="-1" clickPointY="-1" imageFileName="tcvi613975656100602.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="16" kind="0" dateTime="43318.5986805556" objectName="Aliases.browser.pagePssguiCopauatTravelAirservic5.panel.panel.panel.panel.panel.panel.formScheduleForm.panel.panel.panel.panel.panel.panel.panel.panel.panel.searchboxFlInput" objectLeft="347" objectTop="595" objectRight="451" objectBottom="625" clickPointX="-1" clickPointY="-1" imageFileName="tcvi5950291711006025.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

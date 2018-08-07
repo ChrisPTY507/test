@@ -19,6 +19,12 @@
 		<child name="logout" key="{90C565E1-FD0F-43B1-BB3F-2195E95252E9}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
 			<data path="logout.js" />
 		</child>
+		<child name="SFR03_new_order" key="{E2108BF0-566B-4A6C-BC4A-5919F97390FB}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="SFR03_new_order.js" />
+		</child>
+		<child name="Unit1" key="{41D62C60-855E-44B0-A802-C7D39788D792}" type="Script Unit" typeId="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}" pluginName="Script">
+			<data path="Unit1.js" />
+		</child>
 	</children>
 	<folders>
 		<folder caption="help" description="A logical folder that is used to organize project items and elements." moniker="">
@@ -27,12 +33,14 @@
 				<ref key="{9E8702E6-E84F-4418-9BFC-49D521454637}" />
 				<ref key="{BDD920BB-10E8-43A5-90A6-2504C4D681BB}" />
 				<ref key="{90C565E1-FD0F-43B1-BB3F-2195E95252E9}" />
+				<ref key="{41D62C60-855E-44B0-A802-C7D39788D792}" />
 			</references>
 		</folder>
 		<folder caption="Reservations" description="A logical folder that is used to organize project items and elements." moniker="">
 			<references>
 				<ref key="{D1A79BE1-183A-4C14-A79B-3F07A0458F98}" />
 				<ref key="{FD6BF471-01D9-46B8-9DD8-1253B6385B7C}" />
+				<ref key="{E2108BF0-566B-4A6C-BC4A-5919F97390FB}" />
 			</references>
 		</folder>
 	</folders>
