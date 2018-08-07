@@ -19,8 +19,8 @@
 							</Property>
 						</Properties>
 						<Children>
-							<Child Name="pagePssguiCopauatTravelAirservic" Key="{1752941B-1333-4E77-A927-8495F5FBF128}" ParallelWalk="True">
-								<Image FileName="-902619521" Left="10" Top="103" Right="1372" Bottom="734" />
+							<Child Name="pagePssgui_Login_wnd" Key="{1752941B-1333-4E77-A927-8495F5FBF128}" ParallelWalk="True">
+								<Image FileName="-883931263" Left="10" Top="107" Right="1372" Bottom="734" />
 								<Properties>
 									<Property Name="ObjectType">
 										<Value PropertyType="0" Value="Page" Type="5" />
@@ -30,7 +30,7 @@
 									</Property>
 								</Properties>
 								<Children>
-									<Child Name="formMyform" Key="{8F99E718-62A3-4310-A731-96CD96DB74AE}" ExtendedFind="True" ParallelWalk="True">
+									<Child Name="Login_form" Key="{8F99E718-62A3-4310-A731-96CD96DB74AE}" ExtendedFind="True" ParallelWalk="True">
 										<Image FileName="-2095616850" Left="10" Top="302" Right="1372" Bottom="575" />
 										<Properties>
 											<Property Name="ObjectType">
@@ -41,7 +41,7 @@
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="textboxUser" Key="{D603AAD4-34D2-40B5-B0F7-73E3C6E0F551}" ExtendedFind="True" ParallelWalk="True">
+											<Child Name="textboxUser_fld" Key="{D603AAD4-34D2-40B5-B0F7-73E3C6E0F551}" ExtendedFind="True" ParallelWalk="True">
 												<Image FileName="-2107483421" Left="446" Top="321" Right="936" Bottom="365" />
 												<TypeInfo Item0="{D18ED542-DEBF-4EEB-B0C7-985D2B6BE327}" />
 												<Properties>
@@ -50,7 +50,7 @@
 													</Property>
 												</Properties>
 											</Child>
-											<Child Name="passwordboxPassword" Key="{9F26AA40-9607-4F30-BA06-FC33390FC3F8}" ExtendedFind="True" ParallelWalk="True">
+											<Child Name="Passwordbox_fld" Key="{9F26AA40-9607-4F30-BA06-FC33390FC3F8}" ExtendedFind="True" ParallelWalk="True">
 												<Image FileName="576961882" Left="446" Top="403" Right="936" Bottom="447" />
 												<TypeInfo Item0="{D18ED542-DEBF-4EEB-B0C7-985D2B6BE327}" />
 												<Properties>
@@ -59,7 +59,7 @@
 													</Property>
 												</Properties>
 											</Child>
-											<Child Name="submitbuttonLogIn" Key="{C2D64CDD-D667-432B-846D-4BC9BA1AFB39}" ExtendedFind="True" ParallelWalk="True">
+											<Child Name="submitbuttonLogIn_btn" Key="{C2D64CDD-D667-432B-846D-4BC9BA1AFB39}" ExtendedFind="True" ParallelWalk="True">
 												<Image FileName="576961882" Left="587" Top="500" Right="796" Bottom="542" />
 												<TypeInfo Item0="{9488EB2E-8330-44B1-AFB8-B1102D444B12}" />
 												<Properties>
@@ -72,7 +72,7 @@
 									</Child>
 								</Children>
 							</Child>
-							<Child Name="pagePssguiCopauatTravelAirservic2" Key="{E3E16D9C-5C31-4132-A52C-5373D783E185}" ParallelWalk="True">
+							<Child Name="pagePssgui_Landing_wnd" Key="{E3E16D9C-5C31-4132-A52C-5373D783E185}" ParallelWalk="True">
 								<Image FileName="-902619521" Left="10" Top="103" Right="1372" Bottom="734" />
 								<TypeInfo Item0="{C2BF0EEA-28D6-43F3-B377-7EC16E41FD4D}" />
 								<Properties>
@@ -93,7 +93,7 @@
 											</Property>
 										</Properties>
 										<Children>
-											<Child Name="panel" Key="{9054FA4F-3AD4-4420-9B39-D6823D074601}" ParallelWalk="True">
+											<Child Name="Landing_wnd" Key="{9054FA4F-3AD4-4420-9B39-D6823D074601}" ParallelWalk="True">
 												<Image FileName="-902619521" Left="10" Top="103" Right="1372" Bottom="734" />
 												<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 												<Properties>
@@ -105,7 +105,7 @@
 													</Property>
 												</Properties>
 												<Children>
-													<Child Name="panel" Key="{39D65865-979B-4E8E-9962-633E3BC6D1C3}" ParallelWalk="True">
+													<Child Name="page2_body" Key="{39D65865-979B-4E8E-9962-633E3BC6D1C3}" ParallelWalk="True">
 														<Image FileName="-902619521" Left="10" Top="153" Right="1372" Bottom="734" />
 														<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 														<Properties>
@@ -129,7 +129,7 @@
 																	</Property>
 																</Properties>
 																<Children>
-																	<Child Name="figure" Key="{692063E7-776B-4C46-9E89-FDB2E798CBA9}" ParallelWalk="True">
+																	<Child Name="Reservations_btn" Key="{692063E7-776B-4C46-9E89-FDB2E798CBA9}" ParallelWalk="True">
 																		<Image FileName="-902619521" Left="41" Top="184" Right="339" Bottom="375" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -155,7 +155,7 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="figure2" Key="{F1BDA9E2-6740-4C80-B34C-7046C5276F81}" ParallelWalk="True">
+																	<Child Name="Check_In_btn" Key="{F1BDA9E2-6740-4C80-B34C-7046C5276F81}" ParallelWalk="True">
 																		<Image FileName="-1021142078" Left="375" Top="184" Right="673" Bottom="375" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -181,7 +181,7 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="figure3" Key="{4914E7D2-DA15-4637-ADDD-DC60EF1E4D54}" ParallelWalk="True">
+																	<Child Name="Gate_btn" Key="{4914E7D2-DA15-4637-ADDD-DC60EF1E4D54}" ParallelWalk="True">
 																		<Image FileName="-595699606" Left="709" Top="184" Right="1007" Bottom="375" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -207,7 +207,7 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="figure4" Key="{F17BE5E0-7514-4462-9CAB-1FAA63F0977C}" ParallelWalk="True">
+																	<Child Name="Sales_Reporting_btn" Key="{F17BE5E0-7514-4462-9CAB-1FAA63F0977C}" ParallelWalk="True">
 																		<Image FileName="1282884771" Left="1043" Top="184" Right="1341" Bottom="375" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -233,7 +233,7 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="figure5" Key="{B7013D94-1ECE-4A03-A7D5-23A8F8F33EA8}" ParallelWalk="True">
+																	<Child Name="Travel_Compensation_btn" Key="{B7013D94-1ECE-4A03-A7D5-23A8F8F33EA8}" ParallelWalk="True">
 																		<Image FileName="-1038722682" Left="41" Top="409" Right="339" Bottom="600" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -259,7 +259,7 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="figure6" Key="{B935CD75-0E3B-4E26-8881-E5F392B4D849}" ParallelWalk="True">
+																	<Child Name="Codeshare_btn" Key="{B935CD75-0E3B-4E26-8881-E5F392B4D849}" ParallelWalk="True">
 																		<Image FileName="-1038722682" Left="375" Top="409" Right="673" Bottom="600" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -285,7 +285,7 @@
 																			</Child>
 																		</Children>
 																	</Child>
-																	<Child Name="figure7" Key="{1711AC30-F2A9-4CB7-B775-4940E438EB07}" ParallelWalk="True">
+																	<Child Name="User_Provisioning_Tool_btn" Key="{1711AC30-F2A9-4CB7-B775-4940E438EB07}" ParallelWalk="True">
 																		<Image FileName="-1538469855" Left="709" Top="409" Right="1007" Bottom="600" />
 																		<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 																		<Properties>
@@ -315,31 +315,190 @@
 															</Child>
 														</Children>
 													</Child>
-													<Child Name="buttonLopezWilson" Key="{A3BAA7FB-F1B5-4829-AB3A-444F9B207D76}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-1470404263" Left="839" Top="108" Right="965" Bottom="144" />
-														<TypeInfo Item0="{A2369449-C700-4C66-B2EA-CBB0D005695F}" />
+													<Child Name="page1_header" Key="{7792C047-DCAD-4F5C-9856-5161D1D1F0CA}" ParallelWalk="True">
+														<Image FileName="1226204288" Left="10" Top="107" Right="1372" Bottom="153" />
+														<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
 														<Properties>
 															<Property Name="ObjectType">
-																<Value PropertyType="0" Value="Button" Type="5" />
+																<Value PropertyType="0" Value="Panel" Type="5" />
 															</Property>
-															<Property Name="baseURI">
-																<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/landing" Type="5" />
-															</Property>
-															<Property Name="formAction">
-																<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/landing" Type="5" />
-															</Property>
-															<Property Name="FullName">
-																<Value PropertyType="0" Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/landing&quot;).Panel(0).Panel(0).Panel(0).Panel(2).Panel(0).Button(0)" Type="5" />
-															</Property>
-															<Property Name="outerHTML">
-																<Value PropertyType="0" Value="3C0062007500740074006F006E0020006E0067002D0063006C00690063006B003D00220024006D0064004F00700065006E004D0065006E007500280029002200200072006F006C0065003D0022006D0065006E0075006900740065006D002200200074007900700065003D00220062007500740074006F006E002200200061007200690061002D0068006100730070006F007000750070003D00220074007200750065002200200063006C006100730073003D0022006E0067002D00620069006E00640069006E0067002200200061007200690061002D0065007800700061006E006400650064003D002200660061006C00730065002200200061007200690061002D006F0077006E0073003D0022006D0065006E0075005F0063006F006E007400610069006E00650072005F00300022003E000A0020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002A0020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003C006900200063006C006100730073003D002200690063006F006E002D0073006F00720074002D00640065007300630065006E00640069006E00670022003E003C002F0069003E000A002000200020002000200020002000200020002000200020002000200020002000200020002000200020002000200020003C002F0062007500740074006F006E003E00" Type="7" />
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="0" Type="0" />
 															</Property>
 														</Properties>
+														<Children>
+															<Child Name="panel" Key="{A3F6F4CA-D534-40FD-A128-D541DA9D8A06}" ParallelWalk="True">
+																<Image FileName="-2032427869" Left="436" Top="101" Right="1362" Bottom="159" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="2" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{4E056AFC-DD11-4F94-9F4A-22C50A2E2822}" ParallelWalk="True">
+																		<Image FileName="-530682328" Left="436" Top="102" Right="1140" Bottom="158" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="Punto_Venta_btn" Key="{22D95AEB-27EF-4F8A-8772-6C577BCCF0FB}" ParallelWalk="True">
+																				<Image FileName="1530316980" Left="616" Top="114" Right="825" Bottom="146" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Panel" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panel" Key="{FA41F564-DEE2-4D90-9938-F49CA2BC82F8}" ParallelWalk="True">
+																						<Image FileName="-1945589464" Left="618" Top="114" Right="627" Bottom="146" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="Panel" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="0" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="panel2" Key="{F7F6AF19-5301-4342-A60C-C4A9740C504F}" ParallelWalk="True">
+																						<Image FileName="-1945589464" Left="631" Top="114" Right="777" Bottom="146" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="Panel" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="1" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																					<Child Name="panel3" Key="{B989F8E2-DC2E-4C86-B3F5-0D647A8FA663}" ParallelWalk="True">
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value PropertyType="0" Value="Panel" Type="5" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value PropertyType="0" Value="2" Type="0" />
+																							</Property>
+																						</Properties>
+																					</Child>
+																				</Children>
+																			</Child>
+																			<Child Name="Perfil_btn" Key="{B22CDF50-9E88-47CE-A04E-088DF3D980E4}" ParallelWalk="True">
+																				<Image FileName="532577687" Left="839" Top="112" Right="965" Bottom="148" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Button" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="0" Type="0" />
+																					</Property>
+																					<Property Name="baseURI">
+																						<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/landing" Type="5" />
+																					</Property>
+																					<Property Name="formAction">
+																						<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/landing" Type="5" />
+																					</Property>
+																					<Property Name="FullName">
+																						<Value PropertyType="0" Value="Sys.Browser(&quot;chrome&quot;).Page(&quot;https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/landing&quot;).Panel(0).Panel(0).Panel(0).Panel(2).Panel(0).Button(0)" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="panel2" Key="{7A30BE83-8B70-4B14-B07C-C676F7F9DF64}" ParallelWalk="True">
+																		<Image FileName="-1592519138" Left="1144" Top="110" Right="1182" Bottom="150" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="panel3" Key="{01E9F495-B46C-4796-91E0-94F5BBEF7940}" ParallelWalk="True">
+																		<Image FileName="928541633" Left="1186" Top="110" Right="1224" Bottom="150" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="2" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="panel4" Key="{FC9EABDC-5656-4127-80E5-0A9268CEC58E}" ParallelWalk="True">
+																		<Image FileName="1980896247" Left="1228" Top="101" Right="1286" Bottom="159" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="3" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="panel5" Key="{C0AF3622-1DB2-44E4-A587-331DCFE58904}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="4" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="panel6" Key="{3DEB3260-0541-4969-AE56-DD8938017715}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="5" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="panel2" Key="{3F3593BF-CE2A-4E64-8AE3-3D3EFE139956}" ParallelWalk="True">
+																<Image FileName="-1478928037" Left="20" Top="120" Right="163" Bottom="141" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="0" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="panel3" Key="{DEEBBC1B-9E30-4B48-B93B-A496D9A0CD30}" ParallelWalk="True">
+																<Image FileName="25233629" Left="167" Top="124" Right="432" Bottom="136" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
 													</Child>
 												</Children>
 											</Child>
-											<Child Name="buttonLogout" Key="{39956245-B83F-4854-AAF9-11013CD521DF}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="-1361280715" Left="839" Top="196" Right="1035" Bottom="224" />
+											<Child Name="Logout_btn" Key="{1DD3F9B1-F690-41E6-9AF6-88AA21E4316A}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1807280175" Left="839" Top="200" Right="1035" Bottom="228" />
 												<TypeInfo Item0="{A2369449-C700-4C66-B2EA-CBB0D005695F}" />
 												<Properties>
 													<Property Name="ObjectType">
@@ -349,6 +508,174 @@
 														<Value PropertyType="0" Value="Logout" Type="5" />
 													</Property>
 												</Properties>
+											</Child>
+											<Child Name="Setting_btn" Key="{A47944B5-CED4-4146-BD30-90C0F41636F1}" ExtendedFind="True" ParallelWalk="True">
+												<Image FileName="-1517499468" Left="839" Top="168" Right="1035" Bottom="196" />
+												<TypeInfo Item0="{A2369449-C700-4C66-B2EA-CBB0D005695F}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Button" Type="5" />
+													</Property>
+													<Property Name="ObjectLabel">
+														<Value PropertyType="0" Value="Setting" Type="5" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="Change_Sales_Office_Currency_wnd" Key="{19A81AC2-5E56-4956-A7AD-ABF54580727E}" ParallelWalk="True">
+												<Image FileName="-1494755978" Left="433" Top="268" Right="949" Bottom="574" />
+												<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value PropertyType="0" Value="Panel" Type="5" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value PropertyType="0" Value="1" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{DADF8B53-E61C-4605-99D2-B22EB2482B1C}" ParallelWalk="True">
+														<Image FileName="-1494755978" Left="433" Top="268" Right="949" Bottom="312" />
+														<TypeInfo Item0="{AA1E2531-A45B-42D9-B332-4682D9C365EF}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="0" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="panel2" Key="{2540697B-FC8B-4F55-B0DF-5E749AF430DD}" ParallelWalk="True">
+														<Image FileName="1662353973" Left="433" Top="316" Right="949" Bottom="364" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="1" Type="0" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="panel3" Key="{E02547A5-174B-4320-96FC-B725888DEC99}" ParallelWalk="True">
+														<Image FileName="313688057" Left="433" Top="368" Right="949" Bottom="574" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value PropertyType="0" Value="Panel" Type="5" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value PropertyType="0" Value="2" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{953C48CD-245A-493B-BFF9-2B1B6F6E0633}" ParallelWalk="True">
+																<Image FileName="-675046098" Left="453" Top="388" Right="929" Bottom="500" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{45AE3762-D19D-420F-B3A8-8F5C970A2CA2}" ParallelWalk="True">
+																		<Image FileName="-650271343" Left="453" Top="388" Right="929" Bottom="437" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="label" Key="{BB3601B0-0DE3-4C63-B76D-315B0AAA2D5A}" ParallelWalk="True">
+																				<Image FileName="-1859563268" Left="453" Top="388" Right="761" Bottom="400" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Label" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="panel" Key="{684F7F77-DC58-4E35-9439-89047DA2FBF3}" ParallelWalk="True">
+																				<Image FileName="1184242455" Left="453" Top="414" Right="505" Bottom="426" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Panel" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="0" Type="0" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="panelSelectContainer369" Key="{CC9EAEAF-D35C-4F5B-9E6C-6D6D004B889B}" ParallelWalk="True">
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="Panel" Type="5" />
+																					</Property>
+																					<Property Name="ObjectIdentifier">
+																						<Value PropertyType="0" Value="select_container_369" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="textnodeSelect368" Key="{F9FE0E0B-20A8-4732-BDAC-67244B994CF2}" ParallelWalk="True">
+																				<Image FileName="-1245139406" Left="453" Top="398" Right="761" Bottom="427" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value PropertyType="0" Value="TextNode" Type="5" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="panel2" Key="{0DD9DD31-6301-4A03-B81A-87D545BD3890}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Panel" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="panel2" Key="{C7D81F40-3C59-4196-A286-AB20A33608DB}" ParallelWalk="True">
+																<Image FileName="2073483002" Left="453" Top="504" Right="929" Bottom="554" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value PropertyType="0" Value="Panel" Type="5" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value PropertyType="0" Value="1" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="buttonCancel" Key="{EBBFEE64-E466-4773-ABC2-EB5B9EAFB36E}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Button" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="0" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																	<Child Name="buttonOk" Key="{98764FAB-42D7-4BFF-B089-5FFB011196F5}" ParallelWalk="True">
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value PropertyType="0" Value="Button" Type="5" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value PropertyType="0" Value="1" Type="0" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
 											</Child>
 										</Children>
 									</Child>
@@ -361,11 +688,12 @@
 										<Value PropertyType="0" Value="Page" Type="5" />
 									</Property>
 									<Property Name="URL">
-										<Value PropertyType="0" Value="https://test.aliv.io/ingresa?nextURL=%2Fpaciente%2Finicio" Type="5" />
+										<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/pssgui/home/res-dashboard" Type="5" />
 									</Property>
 								</Properties>
 								<Children>
 									<Child Name="panel" Key="{BFEED5A2-31D9-487A-B41D-F2AD44534249}" ParallelWalk="True">
+										<Image FileName="-18277892" Left="10" Top="107" Right="1372" Bottom="734" />
 										<Properties>
 											<Property Name="ObjectType">
 												<Value PropertyType="0" Value="Panel" Type="5" />
@@ -1740,56 +2068,6 @@
 												</Children>
 											</Child>
 										</Children>
-									</Child>
-								</Children>
-							</Child>
-							<Child Name="pagePssguiCopauatTravelAirservic4" Key="{BFC6F619-894B-42FA-9222-23CB6F902BDD}" ParallelWalk="True">
-								<Image FileName="-607440782" Left="10" Top="103" Right="1372" Bottom="734" />
-								<TypeInfo Item0="{C2BF0EEA-28D6-43F3-B377-7EC16E41FD4D}" />
-								<Properties>
-									<Property Name="ObjectType">
-										<Value PropertyType="0" Value="Page" Type="5" />
-									</Property>
-									<Property Name="URL">
-										<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/" Type="5" />
-									</Property>
-								</Properties>
-								<Children>
-									<Child Name="link" Key="{C2EFBE5D-2188-48BA-8938-E71AC4C2CAF2}" ExtendedFind="True" ParallelWalk="True">
-										<Image FileName="-607440782" Left="58" Top="169" Right="105" Bottom="184" />
-										<TypeInfo Item0="{219FEBD7-4F72-4315-91B6-A816291FE5AF}" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value PropertyType="0" Value="Link" Type="5" />
-											</Property>
-											<Property Name="href">
-												<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/Backup/" Type="5" />
-											</Property>
-										</Properties>
-									</Child>
-									<Child Name="link2" Key="{ABD138E8-5CC2-4CEF-A5B9-B5F21ABE68B2}" ExtendedFind="True" ParallelWalk="True">
-										<Image FileName="-607440782" Left="58" Top="189" Right="88" Bottom="204" />
-										<TypeInfo Item0="{219FEBD7-4F72-4315-91B6-A816291FE5AF}" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value PropertyType="0" Value="Link" Type="5" />
-											</Property>
-											<Property Name="href">
-												<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/copa/" Type="5" />
-											</Property>
-										</Properties>
-									</Child>
-									<Child Name="link3" Key="{2B021DA0-62A4-43D0-BD2A-6FB99C84A87F}" ExtendedFind="True" ParallelWalk="True">
-										<Image FileName="-607440782" Left="58" Top="209" Right="77" Bottom="224" />
-										<TypeInfo Item0="{219FEBD7-4F72-4315-91B6-A816291FE5AF}" />
-										<Properties>
-											<Property Name="ObjectType">
-												<Value PropertyType="0" Value="Link" Type="5" />
-											</Property>
-											<Property Name="href">
-												<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/css/" Type="5" />
-											</Property>
-										</Properties>
 									</Child>
 								</Children>
 							</Child>
@@ -5537,6 +5815,61 @@
 									</Property>
 								</Properties>
 							</Child>
+							<Child Name="pagePssgui_Index_wnd" Key="{8DAD5F1F-D4A8-4DEC-AFAF-A63D3C3B0029}" ParallelWalk="True">
+								<Image FileName="341242959" Left="10" Top="107" Right="1372" Bottom="734" />
+								<TypeInfo Item0="{C2BF0EEA-28D6-43F3-B377-7EC16E41FD4D}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value PropertyType="0" Value="Page" Type="5" />
+									</Property>
+									<Property Name="URL">
+										<Value PropertyType="0" Value="https://pssgui.copauat.travel.airservices.svcs.entsvcs.com/*" Type="5" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnode" Key="{57AF736E-D121-4E34-8AC1-6C214A8AEF9C}" ParallelWalk="True">
+										<Image FileName="341242959" Left="18" Top="115" Right="1364" Bottom="148" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="TextNode" Type="5" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="link" Key="{EDBB61C2-218B-458A-96D2-63B376AD0951}" ParallelWalk="True">
+										<Image FileName="341242959" Left="58" Top="173" Right="105" Bottom="188" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="0" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="link2" Key="{0498526A-D763-4692-A833-5C0711575C5D}" ParallelWalk="True">
+										<Image FileName="341242959" Left="58" Top="193" Right="88" Bottom="208" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="link3" Key="{A6B58B34-B5C6-459A-A615-64B29B8D756E}" ParallelWalk="True">
+										<Image FileName="341242959" Left="58" Top="213" Right="77" Bottom="228" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value PropertyType="0" Value="Link" Type="5" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value PropertyType="0" Value="2" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -5553,44 +5886,82 @@
 	</Nodes>
 	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
 		<Child Name="browser" Owner="{E19B7398-8BD8-4952-B058-6DA548D5BBFF}">
-			<Child Name="pagePssguiCopauatTravelAirservic" Owner="{1752941B-1333-4E77-A927-8495F5FBF128}">
-				<Child Name="formMyform" Owner="{8F99E718-62A3-4310-A731-96CD96DB74AE}">
-					<Child Name="textboxUser" Owner="{D603AAD4-34D2-40B5-B0F7-73E3C6E0F551}" />
-					<Child Name="passwordboxPassword" Owner="{9F26AA40-9607-4F30-BA06-FC33390FC3F8}" />
-					<Child Name="submitbuttonLogIn" Owner="{C2D64CDD-D667-432B-846D-4BC9BA1AFB39}" />
+			<Child Name="pagePssgui_Login_wnd" Owner="{1752941B-1333-4E77-A927-8495F5FBF128}">
+				<Child Name="Login_form" Owner="{8F99E718-62A3-4310-A731-96CD96DB74AE}">
+					<Child Name="textboxUser_fld" Owner="{D603AAD4-34D2-40B5-B0F7-73E3C6E0F551}" />
+					<Child Name="Passwordbox_fld" Owner="{9F26AA40-9607-4F30-BA06-FC33390FC3F8}" />
+					<Child Name="submitbuttonLogIn_btn" Owner="{C2D64CDD-D667-432B-846D-4BC9BA1AFB39}" />
 				</Child>
 			</Child>
-			<Child Name="pagePssguiCopauatTravelAirservic2" Owner="{E3E16D9C-5C31-4132-A52C-5373D783E185}">
+			<Child Name="pagePssgui_Landing_wnd" Owner="{E3E16D9C-5C31-4132-A52C-5373D783E185}">
 				<Child Name="panel" Owner="{1F612C58-E974-40D6-B08C-F954F62A2A0E}">
-					<Child Name="panel" Owner="{9054FA4F-3AD4-4420-9B39-D6823D074601}">
-						<Child Name="panel" Owner="{39D65865-979B-4E8E-9962-633E3BC6D1C3}">
+					<Child Name="Landing_wnd" Owner="{9054FA4F-3AD4-4420-9B39-D6823D074601}">
+						<Child Name="page2_body" Owner="{39D65865-979B-4E8E-9962-633E3BC6D1C3}">
 							<Child Name="panel" Owner="{32513B9D-63B7-40E5-A092-01F3B4C68807}">
-								<Child Name="reservations" Owner="{692063E7-776B-4C46-9E89-FDB2E798CBA9}">
+								<Child Name="Reservations_btn" Owner="{692063E7-776B-4C46-9E89-FDB2E798CBA9}">
 									<Child Name="panel" Owner="{FED519A3-C564-4E29-9894-7C18F205917A}" />
 								</Child>
-								<Child Name="check" Owner="{F1BDA9E2-6740-4C80-B34C-7046C5276F81}">
+								<Child Name="Check_In_btn" Owner="{F1BDA9E2-6740-4C80-B34C-7046C5276F81}">
 									<Child Name="panel" Owner="{93C369D1-41DF-4B14-91A1-8E217BE2A1EC}" />
 								</Child>
-								<Child Name="gate" Owner="{4914E7D2-DA15-4637-ADDD-DC60EF1E4D54}">
+								<Child Name="Gate_btn" Owner="{4914E7D2-DA15-4637-ADDD-DC60EF1E4D54}">
 									<Child Name="panel" Owner="{2EC5E529-688B-4C17-A4E1-EBB5D52BAB37}" />
 								</Child>
-								<Child Name="sales_reporting" Owner="{F17BE5E0-7514-4462-9CAB-1FAA63F0977C}">
+								<Child Name="Sales_Reporting_btn" Owner="{F17BE5E0-7514-4462-9CAB-1FAA63F0977C}">
 									<Child Name="panel" Owner="{70A6DC92-EF7E-4630-A9DC-FA94272A9E21}" />
 								</Child>
-								<Child Name="travel_compensation" Owner="{B7013D94-1ECE-4A03-A7D5-23A8F8F33EA8}">
+								<Child Name="Travel_Compensation_btn" Owner="{B7013D94-1ECE-4A03-A7D5-23A8F8F33EA8}">
 									<Child Name="panel" Owner="{458487AF-75E8-4E23-92A4-E9CF2E79389B}" />
 								</Child>
-								<Child Name="codeshare" Owner="{B935CD75-0E3B-4E26-8881-E5F392B4D849}">
+								<Child Name="Codeshare_btn" Owner="{B935CD75-0E3B-4E26-8881-E5F392B4D849}">
 									<Child Name="panel" Owner="{21B4CDCE-62C0-46AE-AC38-7E7CAB9D2E9F}" />
 								</Child>
-								<Child Name="upt" Owner="{1711AC30-F2A9-4CB7-B775-4940E438EB07}">
+								<Child Name="user_Provisioning_Tool_btn" Owner="{1711AC30-F2A9-4CB7-B775-4940E438EB07}">
 									<Child Name="panel" Owner="{42565CD0-2A1E-4100-BD54-BE6847C1F544}" />
 								</Child>
 							</Child>
 						</Child>
-						<Child Name="buttonLopezWilson" Owner="{A3BAA7FB-F1B5-4829-AB3A-444F9B207D76}" />
+						<Child Name="page1_header" Owner="{7792C047-DCAD-4F5C-9856-5161D1D1F0CA}">
+							<Child Name="panel" Owner="{A3F6F4CA-D534-40FD-A128-D541DA9D8A06}">
+								<Child Name="panel" Owner="{4E056AFC-DD11-4F94-9F4A-22C50A2E2822}">
+									<Child Name="Punto_Venta_btn" Owner="{22D95AEB-27EF-4F8A-8772-6C577BCCF0FB}">
+										<Child Name="panel" Owner="{FA41F564-DEE2-4D90-9938-F49CA2BC82F8}" />
+										<Child Name="panel2" Owner="{F7F6AF19-5301-4342-A60C-C4A9740C504F}" />
+										<Child Name="panel3" Owner="{B989F8E2-DC2E-4C86-B3F5-0D647A8FA663}" />
+									</Child>
+									<Child Name="Perfil_btn" Owner="{B22CDF50-9E88-47CE-A04E-088DF3D980E4}" />
+								</Child>
+								<Child Name="panel2" Owner="{7A30BE83-8B70-4B14-B07C-C676F7F9DF64}" />
+								<Child Name="panel3" Owner="{01E9F495-B46C-4796-91E0-94F5BBEF7940}" />
+								<Child Name="panel4" Owner="{FC9EABDC-5656-4127-80E5-0A9268CEC58E}" />
+								<Child Name="panel5" Owner="{C0AF3622-1DB2-44E4-A587-331DCFE58904}" />
+								<Child Name="panel6" Owner="{3DEB3260-0541-4969-AE56-DD8938017715}" />
+							</Child>
+							<Child Name="panel2" Owner="{3F3593BF-CE2A-4E64-8AE3-3D3EFE139956}" />
+							<Child Name="panel3" Owner="{DEEBBC1B-9E30-4B48-B93B-A496D9A0CD30}" />
+						</Child>
 					</Child>
-					<Child Name="buttonLogout" Owner="{39956245-B83F-4854-AAF9-11013CD521DF}" />
+					<Child Name="Logout_btn" Owner="{1DD3F9B1-F690-41E6-9AF6-88AA21E4316A}" />
+					<Child Name="Setting_btn" Owner="{A47944B5-CED4-4146-BD30-90C0F41636F1}" />
+					<Child Name="Change_Sales_Office_Currency_wnd" Owner="{19A81AC2-5E56-4956-A7AD-ABF54580727E}">
+						<Child Name="panel" Owner="{DADF8B53-E61C-4605-99D2-B22EB2482B1C}" />
+						<Child Name="panel2" Owner="{2540697B-FC8B-4F55-B0DF-5E749AF430DD}" />
+						<Child Name="panel3" Owner="{E02547A5-174B-4320-96FC-B725888DEC99}">
+							<Child Name="panel" Owner="{953C48CD-245A-493B-BFF9-2B1B6F6E0633}">
+								<Child Name="panel" Owner="{45AE3762-D19D-420F-B3A8-8F5C970A2CA2}">
+									<Child Name="label" Owner="{BB3601B0-0DE3-4C63-B76D-315B0AAA2D5A}" />
+									<Child Name="panel" Owner="{684F7F77-DC58-4E35-9439-89047DA2FBF3}" />
+									<Child Name="panelSelectContainer369" Owner="{CC9EAEAF-D35C-4F5B-9E6C-6D6D004B889B}" />
+									<Child Name="textnodeSelect368" Owner="{F9FE0E0B-20A8-4732-BDAC-67244B994CF2}" />
+								</Child>
+								<Child Name="panel2" Owner="{0DD9DD31-6301-4A03-B81A-87D545BD3890}" />
+							</Child>
+							<Child Name="panel2" Owner="{C7D81F40-3C59-4196-A286-AB20A33608DB}">
+								<Child Name="buttonCancel" Owner="{EBBFEE64-E466-4773-ABC2-EB5B9EAFB36E}" />
+								<Child Name="buttonOk" Owner="{98764FAB-42D7-4BFF-B089-5FFB011196F5}" />
+							</Child>
+						</Child>
+					</Child>
 				</Child>
 			</Child>
 			<Child Name="pagePssguiCopauatTravelAirservic3" Owner="{7EBC311E-E7D3-4DAB-995B-E0200E36F928}">
@@ -5766,11 +6137,6 @@
 						</Child>
 					</Child>
 				</Child>
-			</Child>
-			<Child Name="pagePssguiCopauatTravelAirservic4" Owner="{BFC6F619-894B-42FA-9222-23CB6F902BDD}">
-				<Child Name="backup" Owner="{C2EFBE5D-2188-48BA-8938-E71AC4C2CAF2}" />
-				<Child Name="copa" Owner="{ABD138E8-5CC2-4CEF-A5B9-B5F21ABE68B2}" />
-				<Child Name="css" Owner="{2B021DA0-62A4-43D0-BD2A-6FB99C84A87F}" />
 			</Child>
 			<Child Name="pagePssguiCopauatTravelAirservic5" Owner="{CB09C6A9-1FA4-4B33-8E88-2E3C07C90CB6}">
 				<Child Name="panel" Owner="{A4050E63-4AC2-4363-A1A4-C0503E394234}">
@@ -6240,6 +6606,12 @@
 			</Child>
 			<Child Name="pagePssguiCopauatTravelAirservic8" Owner="{E75B37BC-6F28-4829-9E2D-9414C7A90DFB}" />
 			<Child Name="pagePssguiCopauatTravelAirservic9" Owner="{8B8A1C13-6363-4772-8190-76AF4802229F}" />
+			<Child Name="pagePssgui_Index_wnd" Owner="{8DAD5F1F-D4A8-4DEC-AFAF-A63D3C3B0029}">
+				<Child Name="textnode" Owner="{57AF736E-D121-4E34-8AC1-6C214A8AEF9C}" />
+				<Child Name="link" Owner="{EDBB61C2-218B-458A-96D2-63B376AD0951}" />
+				<Child Name="link2" Owner="{0498526A-D763-4692-A833-5C0711575C5D}" />
+				<Child Name="link3" Owner="{A6B58B34-B5C6-459A-A615-64B29B8D756E}" />
+			</Child>
 		</Child>
 	</LogicalNodes>
 	<TypeInfo StoreCodeCompletion="1">
